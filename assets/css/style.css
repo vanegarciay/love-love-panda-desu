@@ -6,3 +6,80 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+* {
+    font-family: "Raleway";
+    color: #fff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#cabecera, .bordeRosaArriba, .bordesRosas, #textoRosa, footer {
+    background-color: #F78E69;
+}
+
+#cabecera {
+    padding: 10px 30px 30px 30px;
+    margin: 0;
+    text-align: right;
+}
+
+.bordeRosaArriba {
+    padding: 20px 0 0 0;
+}
+
+.bordesRosas {
+    padding: 20px 0 20px 0;
+    border: 0;
+}
+
+.fondoVerde {
+    background-color: #ABE188;
+    padding: 30px;
+    text-align: center;
+}
+
+#textoRosa {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#panda1 {
+    background: url("../img/uno.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    filter: grayscale(100%);
+}
+
+#panda2 {
+    background: url("../img/dos.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 500px;
+    filter: grayscale(100%);
+}
+
+#panda3 {
+    background: url("../img/tres.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 500px;
+    filter: grayscale(100%);
+}
+
+.panditas {
+    border: 8px solid #fff;
+    margin: 0.7em;
+}
+
+footer {
+    padding: 0.7em;
+    border: 0;
+    text-align: right;
+    font-size: 0.8em;
+}
